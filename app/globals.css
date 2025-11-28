@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3d3d3d;
+  border-radius: 15px;
+}
+
+.break-word {
+  word-break: break-word;
+}
+
+.react-multi-carousel-dot--active button {
+  background-color: white !important;
+}
+.react-multi-carousel-dot button {
+  border-color: white !important;
+}
+
+.md-wrapper{
+  font-size: 20px;
+}
+
+.md-wrapper hr {
+  margin-block: 20px;
+}
+
+.md-wrapper strong {
+  font-weight: bolder;
+}
+.md-wrapper p {
+  margin-bottom: 20px;
+}
+
+.md-wrapper ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.md-wrapper a {
+  color: cyan;
+  text-decoration: underline;
+}
+.md-wrapper ul {
+  margin-left: 40px;
+  list-style-type: disc;
+}
